@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+canvas{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  display: block;
+}
