@@ -1,0 +1,9 @@
+@use "../abstracts/variables" as *;
+
+.footerHome {
+    font-family: $ff-main;
+    font-size: $fz-descriptionAssets;
+    color: $cl-text;
+    text-align: center;
+    padding: 5rem;
+}

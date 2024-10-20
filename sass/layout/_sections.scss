@@ -1,0 +1,42 @@
+@use "../abstracts/variables" as *;
+
+.background-section {
+    height: 20rem;
+    width: 100%;
+    background-image: url(/img/assets/fondo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.firstSection {
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.assets-section {
+    background-color: $cl-main;
+    padding: 3rem;
+
+}
+
+.container-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+    gap: 20rem;
+
+}
+
+.ranking-section {
+    display: flex;
+    flex-direction: column; // Asegura que los elementos se coloquen en columna
+    align-items: center; // Centra horizontalmente
+    justify-content: center; // Centra verticalmente
+    height: 50rem; // Ajusta la altura para centrar verticalmente
+    margin: 0 auto;
+    background-color: $cl-main;
+
+}

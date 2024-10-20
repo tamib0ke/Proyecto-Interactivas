@@ -1,0 +1,32 @@
+@use "../abstracts/variables" as *;
+
+button {
+    background-color: $cl-second;
+    color: $cl-third;
+    font-family: $ff-second;
+    font-size: $fz-nav;
+    border: none;
+    padding: 1rem 8rem; 
+    border-radius: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 2rem; 
+}
+
+.buttomLogin {
+    padding-left: 10rem; 
+
+}
+
+.btnLogin {
+    background-color: $cl-second;
+    color: $cl-third;
+    font-family: $ff-second;
+    font-size: $fz-nav;
+    border: none;
+    padding: 1rem 6rem; // Padding por defecto
+    border-radius: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 2rem; // Margen por defecto
+}

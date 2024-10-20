@@ -1,0 +1,68 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+.hamss {
+    font-size: $fz-titleHams;
+    font-family: $ff-main;
+}
+
+.theGame {
+    font-size: $fz-titleHamsP;
+    font-family: $ff-main;
+    line-height: 1.3;
+}
+
+.mainCharacter {
+    font-size: $fz-titleCharacter;
+    font-family: $ff-main;
+    align-self: flex-start; 
+    margin-left: 0; 
+}
+
+.characterDescription {
+    font-size: $fz-text;
+    font-family: $ff-second;
+    align-self: flex-start; 
+    margin-left: 0; 
+}
+
+.titleAssets {
+    text-align: center;
+    font-size: $fz-assests;
+    font-family: $ff-main;
+    color: $cl-third;
+    margin-top: 3rem;
+}
+
+.titleCard {
+    font-size: $fz-descriptionAssets;
+    font-family: $ff-main;
+    color: $cl-text;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.descrptionCard {
+    font-size: $fz-descriptionAssets;
+    font-family: $ff-second;
+    color: $cl-text;
+    text-align: left;
+    margin-top: 1rem;
+    line-height: 1.3;
+}
+
+.recover-password {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: $cl-third;
+    font-family: $ff-second;
+    font-size: $fz-nav;
+    text-decoration: none;
+}
+
+.title-ranking {
+    font-size: $fz-ranking;
+    font-family: $ff-main;
+    color: $cl-text;
+    padding-bottom: 3rem;
+}

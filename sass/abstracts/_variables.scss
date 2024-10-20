@@ -1,0 +1,22 @@
+@use "../abstracts/mixins" as *;
+
+$cl-main: #FFC6C7;
+$cl-second: #FF838C;
+$cl-text: #000000;
+$cl-third: #FFFFFF;
+
+//font
+$fz-nav: 1.2rem;
+$fz-titleHams: 4.2rem;
+$fz-titleHamsP: 1.5rem;
+$fz-titleCharacter: 1.8rem;
+$fz-assests: 4rem;
+$fz-text: 1.8rem;
+$fz-descriptionAssets: 1.5rem;
+$fz-ranking: 2.5rem;
+
+$ff-main: 'pacifico', cursive;
+$ff-second: 'inria-sans', sans-serif;
+
+$fw-bold: 600;
+$fw-semi-bold: 600;

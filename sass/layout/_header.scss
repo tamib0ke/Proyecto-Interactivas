@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as *;
+
+header {
+    padding: 1rem;
+    border-bottom: solid 1.5rem $cl-main;
+    width: 100%;
+}
+
+.logoTami {
+    margin-left: 2rem;
+
+}

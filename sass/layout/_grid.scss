@@ -1,0 +1,70 @@
+@use "../abstracts/variables" as *;
+
+.characterInformation {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+    gap: 15rem;
+    padding-top: 4rem;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: left; 
+    border: solid 0.1rem #D1C8C8;
+    padding: 4rem 2rem;
+
+}
+
+.hams-img {
+    top: -15rem; 
+
+}
+
+.imgAssets {
+    display: block;
+    margin: 0 auto 2rem;
+
+}
+
+.left-panel {
+    position: relative;
+    right: -10rem;
+
+}
+
+.right-panel {
+    background-color: $cl-main;
+    width: 110rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+label {
+    margin-right: 2rem;
+
+}
+
+input {
+    width: 23rem;
+    padding: 1rem;
+    border: 0.1rem solid $cl-second;
+    border-radius: 2rem;
+
+}

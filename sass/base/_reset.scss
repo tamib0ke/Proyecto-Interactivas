@@ -1,0 +1,26 @@
+@use "../abstracts/variables" as *;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: $ff-main;
+    background: $cl-third;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-wrap: balance;
+}
+
+p, li, caption{
+    text-wrap: pretty;
+}
+
+/*img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}*/
